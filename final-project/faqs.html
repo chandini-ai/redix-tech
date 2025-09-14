@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQs - Your Startup</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Sticky Navbar -->
+    <header>
+        <nav class="navbar" role="navigation" aria-label="Main Navigation">
+            <div class="navbar-container">
+                <a href="index.html" class="logo" aria-label="Go to homepage">
+                    <img src="images/logo.png" alt="Your Startup Logo" width="40" height="40">
+                </a>
+                <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                    <span class="nav-toggle-bar"></span>
+                    <span class="nav-toggle-bar"></span>
+                    <span class="nav-toggle-bar"></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="faqs.html" aria-current="page">FAQs</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- FAQ Section -->
+    <main>
+        <section id="faq" class="py-24 bg-gradient-to-b from-[#12141C] to-crypto-blue">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4 text-gradient">
+                        Frequently Asked Questions
+                    </h2>
+                    <p class="text-gray-400 max-w-2xl mx-auto">
+                        Got questions about our services? We've got answers. If you don't see what you're looking for, reach out to our support team.
+                    </p>
+                </div>
+
+                <div class="max-w-3xl mx-auto">
+                    <div class="accordion space-y-4">
+                        <!-- FAQ Item 1 -->
+                        <div class="accordion-item bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl overflow-hidden animate-on-scroll" style="animation-delay: 0s">
+                            <button class="accordion-trigger px-6 py-4 text-white hover:text-crypto-purple w-full text-left flex justify-between items-center">
+                                <span>What services do you offer?</span>
+                                <span class="accordion-icon">+</span>
+                            </button>
+                            <div class="accordion-content px-6 pb-4 text-gray-400 hidden">
+                                <p>We offer a comprehensive range of digital services including web development, mobile app development, UI/UX design, digital marketing, cloud solutions, and technical consulting. Our team specializes in creating custom solutions tailored to your business needs.</p>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 2 -->
+                        <div class="accordion-item bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl overflow-hidden animate-on-scroll" style="animation-delay: 0.1s">
+                            <button class="accordion-trigger px-6 py-4 text-white hover:text-crypto-purple w-full text-left flex justify-between items-center">
+                                <span>How long does a typical project take?</span>
+                                <span class="accordion-icon">+</span>
+                            </button>
+                            <div class="accordion-content px-6 pb-4 text-gray-400 hidden">
+                                <p>Project timelines vary depending on complexity and scope. A simple website typically takes 2-4 weeks, while complex web applications can take 2-6 months. We provide detailed timelines during our initial consultation and keep you updated throughout the development process.</p>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 3 -->
+                        <div class="accordion-item bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl overflow-hidden animate-on-scroll" style="animation-delay: 0.2s">
+                            <button class="accordion-trigger px-6 py-4 text-white hover:text-crypto-purple w-full text-left flex justify-between items-center">
+                                <span>Do you provide ongoing support after project completion?</span>
+                                <span class="accordion-icon">+</span>
+                            </button>
+                            <div class="accordion-content px-6 pb-4 text-gray-400 hidden">
+                                <p>Yes, we offer comprehensive post-launch support including maintenance, updates, bug fixes, and technical assistance. We have various support packages to choose from, ranging from basic maintenance to 24/7 monitoring and support.</p>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 4 -->
+                        <div class="accordion-item bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl overflow-hidden animate-on-scroll" style="animation-delay: 0.3s">
+                            <button class="accordion-trigger px-6 py-4 text-white hover:text-crypto-purple w-full text-left flex justify-between items-center">
+                                <span>What technologies do you work with?</span>
+                                <span class="accordion-icon">+</span>
+                            </button>
+                            <div class="accordion-content px-6 pb-4 text-gray-400 hidden">
+                                <p>We work with modern technologies including React, Vue.js, Angular, Node.js, Python, PHP, Java, .NET, and various cloud platforms like AWS, Azure, and Google Cloud. We also specialize in mobile development using React Native, Flutter, and native iOS/Android development.</p>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 5 -->
+                        <div class="accordion-item bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl overflow-hidden animate-on-scroll" style="animation-delay: 0.4s">
+                            <button class="accordion-trigger px-6 py-4 text-white hover:text-crypto-purple w-full text-left flex justify-between items-center">
+                                <span>How do you ensure project quality?</span>
+                                <span class="accordion-icon">+</span>
+                            </button>
+                            <div class="accordion-content px-6 pb-4 text-gray-400 hidden">
+                                <p>We follow industry best practices including code reviews, automated testing, continuous integration, and regular client feedback sessions. Our quality assurance process includes multiple testing phases and we provide detailed documentation for all deliverables.</p>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 6 -->
+                        <div class="accordion-item bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl overflow-hidden animate-on-scroll" style="animation-delay: 0.5s">
+                            <button class="accordion-trigger px-6 py-4 text-white hover:text-crypto-purple w-full text-left flex justify-between items-center">
+                                <span>What is your pricing structure?</span>
+                                <span class="accordion-icon">+</span>
+                            </button>
+                            <div class="accordion-content px-6 pb-4 text-gray-400 hidden">
+                                <p>Our pricing is project-based and depends on scope, complexity, and timeline. We offer flexible engagement models including fixed-price projects, hourly rates, and retainer agreements. We provide detailed quotes after understanding your requirements and are happy to work within your budget.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        © 2025 Your Startup. All rights reserved.
+    </footer>
+</body>
+</html>

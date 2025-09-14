@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Your Startup</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Sticky Navbar -->
+    <header>
+        <nav class="navbar" role="navigation" aria-label="Main Navigation">
+            <div class="navbar-container">
+                <a href="index.html" class="logo" aria-label="Go to homepage">
+                    <img src="images/logo.png" alt="Your Startup Logo" width="40" height="40">
+                </a>
+                <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                    <span class="nav-toggle-bar"></span>
+                    <span class="nav-toggle-bar"></span>
+                    <span class="nav-toggle-bar"></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="services.html" aria-current="page">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="faqs.html">FAQs</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Services Section -->
+    <main>
+        <section id="services" class="py-24 bg-gradient-to-b from-crypto-blue to-[#12141C]">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4 text-gradient">
+                        Our Services
+                    </h2>
+                    <p class="text-gray-400 max-w-2xl mx-auto">
+                        Comprehensive digital solutions for startups and businesses. From web development to digital marketing, we help you grow and succeed.
+                    </p>
+                </div>
+
+                <!-- Service Categories -->
+                <div class="mb-16">
+                    <h3 class="text-2xl font-bold text-white mb-8 text-center">Startup Solutions</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+                        <!-- Web Development -->
+                        <div class="service-card animate-on-scroll" style="animation-delay: 0s">
+                            <div class="service-icon">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold mb-3 text-white">Web Development</h3>
+                            <p class="text-gray-400 mb-4">Custom websites, responsive design, and e-commerce platforms built with modern technologies.</p>
+                            <ul class="text-sm text-gray-300 space-y-1">
+                                <li>• Custom Websites</li>
+                                <li>• E-commerce Platforms</li>
+                                <li>• Responsive Design</li>
+                                <li>• CMS Integration</li>
+                            </ul>
+                            <a href="contact.html" class="service-cta">Learn More</a>
+                        </div>
+
+                        <!-- Mobile App Development -->
+                        <div class="service-card animate-on-scroll" style="animation-delay: 0.1s">
+                            <div class="service-icon">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold mb-3 text-white">Mobile App Development</h3>
+                            <p class="text-gray-400 mb-4">iOS, Android, and cross-platform mobile applications for your business needs.</p>
+                            <ul class="text-sm text-gray-300 space-y-1">
+                                <li>• iOS Apps</li>
+                                <li>• Android Apps</li>
+                                <li>• Cross-platform</li>
+                                <li>• App Store Optimization</li>
+                            </ul>
+                            <a href="contact.html" class="service-cta">Learn More</a>
+                        </div>
+
+                        <!-- UI/UX Design -->
+                        <div class="service-card animate-on-scroll" style="animation-delay: 0.2s">
+                            <div class="service-icon">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4h4a2 2 0 002-2V5z"></path>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold mb-3 text-white">UI/UX Design</h3>
+                            <p class="text-gray-400 mb-4">User-friendly, modern interface design for web and mobile applications.</p>
+                            <ul class="text-sm text-gray-300 space-y-1">
+                                <li>• User Interface Design</li>
+                                <li>• User Experience Research</li>
+                                <li>• Prototyping</li>
+                                <li>• Design Systems</li>
+                            </ul>
+                            <a href="contact.html" class="service-cta">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Digital Marketing Services -->
+                <div class="mb-16">
+                    <h3 class="text-2xl font-bold text-white mb-8 text-center">Digital Marketing</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+                        <!-- SEO Optimization -->
+                        <div class="service-card animate-on-scroll" style="animation-delay: 0.3s">
+                            <div class="service-icon">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold mb-3 text-white">SEO Optimization</h3>
+                            <p class="text-gray-400 mb-4">Improve your search engine visibility and drive organic traffic to your website.</p>
+                            <ul class="text-sm text-gray-300 space-y-1">
+                                <li>• Keyword Research</li>
+                                <li>• On-page SEO</li>
+                                <li>• Technical SEO</li>
+                                <li>• Performance Tracking</li>
+                            </ul>
+                            <a href="contact.html" class="service-cta">Learn More</a>
+                        </div>
+
+                        <!-- Social Media Management -->
+                        <div class="service-card animate-on-scroll" style="animation-delay: 0.4s">
+                            <div class="service-icon">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4V2a1 1 0 011-1h8a1 1 0 011 1v2m-9 0h10m-10 0a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V6a2 2 0 00-2-2M9 4h6"></path>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold mb-3 text-white">Social Media Management</h3>
+                            <p class="text-gray-400 mb-4">Content creation, scheduling, and community management across all platforms.</p>
+                            <ul class="text-sm text-gray-300 space-y-1">
+                                <li>• Content Creation</li>
+                                <li>• Post Scheduling</li>
+                                <li>• Community Management</li>
+                                <li>• Analytics & Reporting</li>
+                            </ul>
+                            <a href="contact.html" class="service-cta">Learn More</a>
+                        </div>
+
+                        <!-- Content Marketing -->
+                        <div class="service-card animate-on-scroll" style="animation-delay: 0.5s">
+                            <div class="service-icon">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold mb-3 text-white">Content Marketing</h3>
+                            <p class="text-gray-400 mb-4">Blogs, newsletters, and copywriting to engage your audience and drive conversions.</p>
+                            <ul class="text-sm text-gray-300 space-y-1">
+                                <li>• Blog Writing</li>
+                                <li>• Email Newsletters</li>
+                                <li>• Copywriting</li>
+                                <li>• Content Strategy</li>
+                            </ul>
+                            <a href="contact.html" class="service-cta">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Freelancing Services -->
+                <div class="mb-16">
+                    <h3 class="text-2xl font-bold text-white mb-8 text-center">Freelancing Services</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+                        <!-- Consulting & Strategy -->
+                        <div class="service-card animate-on-scroll" style="animation-delay: 0.6s">
+                            <div class="service-icon">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold mb-3 text-white">Consulting & Strategy</h3>
+                            <p class="text-gray-400 mb-4">Product strategy, market research, and business development consulting.</p>
+                            <ul class="text-sm text-gray-300 space-y-1">
+                                <li>• Product Strategy</li>
+                                <li>• Market Research</li>
+                                <li>• Business Development</li>
+                                <li>• Technical Consulting</li>
+                            </ul>
+                            <a href="contact.html" class="service-cta">Learn More</a>
+                        </div>
+
+                        <!-- Graphic Design -->
+                        <div class="service-card animate-on-scroll" style="animation-delay: 0.7s">
+                            <div class="service-icon">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold mb-3 text-white">Graphic Design</h3>
+                            <p class="text-gray-400 mb-4">Banners, presentations, infographics, and visual content for your brand.</p>
+                            <ul class="text-sm text-gray-300 space-y-1">
+                                <li>• Logo Design</li>
+                                <li>• Brand Identity</li>
+                                <li>• Infographics</li>
+                                <li>• Presentation Design</li>
+                            </ul>
+                            <a href="contact.html" class="service-cta">Learn More</a>
+                        </div>
+
+                        <!-- Software Development -->
+                        <div class="service-card animate-on-scroll" style="animation-delay: 0.8s">
+                            <div class="service-icon">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold mb-3 text-white">Software Development</h3>
+                            <p class="text-gray-400 mb-4">Custom scripts, automation tools, APIs, and software solutions.</p>
+                            <ul class="text-sm text-gray-300 space-y-1">
+                                <li>• Custom Scripts</li>
+                                <li>• API Development</li>
+                                <li>• Automation Tools</li>
+                                <li>• Database Design</li>
+                            </ul>
+                            <a href="contact.html" class="service-cta">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interactive Stats Section 
+                <div class="mt-20">
+                    <div class="text-center mb-12">
+                        <h3 class="text-2xl md:text-3xl font-bold text-white mb-4">Our Impact in Numbers</h3>
+                        <p class="text-gray-400">See how we're making a difference</p>
+                    </div>
+                    
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                        <div class="stat-card animate-on-scroll" style="animation-delay: 0.6s">
+                            <div class="stat-number" data-target="10000">0</div>
+                            <div class="stat-label">Happy Clients</div>
+                        </div>
+                        <div class="stat-card animate-on-scroll" style="animation-delay: 0.7s">
+                            <div class="stat-number" data-target="500">0</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-card animate-on-scroll" style="animation-delay: 0.8s">
+                            <div class="stat-number" data-target="99">0</div>
+                            <div class="stat-label">% Success Rate</div>
+                        </div>
+                        <div class="stat-card animate-on-scroll" style="animation-delay: 0.9s">
+                            <div class="stat-number" data-target="24">0</div>
+                            <div class="stat-label">Hours Support</div>
+                        </div>
+                    </div>
+                </div>-->
+
+                <!-- Call to Action -->
+                <div class="text-center mt-20">
+                    <div class="cta-card animate-on-scroll" style="animation-delay: 1s">
+                        <h3 class="text-2xl md:text-3xl font-bold text-white mb-4">Ready to Get Started?</h3>
+                        <p class="text-gray-400 mb-8 max-w-2xl mx-auto">
+                            Join thousands of satisfied customers who trust us with their digital transformation journey.
+                        </p>
+                        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                            <a href="contact.html" class="btn btn-primary">Get Started Today</a>
+                            <a href="about.html" class="btn btn-secondary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        © 2025 Your Startup. All rights reserved.
+    </footer>
+</body>
+</html>

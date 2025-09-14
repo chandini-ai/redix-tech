@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Startup - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <!-- Animated wave background (SVG, behind hero content) -->
+    <div class="waves-bg" aria-hidden="true">
+        <svg viewBox="0 0 1440 900" preserveAspectRatio="none" class="waves-svg">
+            <defs>
+                <linearGradient id="waveGradient" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="#fff"/>
+                    <stop offset="50%" stop-color="#222"/>
+                    <stop offset="100%" stop-color="#2a5298"/>
+                </linearGradient>
+            </defs>
+            <path class="wave wave1" d="M0,200 Q720,100 1440,200 V900 H0 Z" fill="url(#waveGradient)" opacity="0.25"/>
+            <path class="wave wave2" d="M0,300 Q720,200 1440,300 V900 H0 Z" fill="url(#waveGradient)" opacity="0.18"/>
+            <path class="wave wave3" d="M0,400 Q720,300 1440,400 V900 H0 Z" fill="url(#waveGradient)" opacity="0.12"/>
+        </svg>
+    </div>
+
+    <!-- Sticky Navbar -->
+    <header>
+        <nav class="navbar" role="navigation" aria-label="Main Navigation">
+            <div class="navbar-container">
+                <a href="#hero" class="logo" aria-label="Go to homepage">
+                    <img src="images/logo.png" alt="Your Startup Logo" width="40" height="40">
+                </a>
+                <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                    <span class="nav-toggle-bar"></span>
+                    <span class="nav-toggle-bar"></span>
+                    <span class="nav-toggle-bar"></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="features.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="faqs.html">FAQs</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+        <section class="hero" id="hero" aria-label="Landing Hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">We Build Your Startup’s Future</h1>
+                    <p class="hero-subtext">Professional solutions for businesses, entrepreneurs, and innovators.</p>
+                    <div class="hero-buttons">
+                        <a href="features.html" class="btn btn-orange" role="button">Our Services</a>
+                        <a href="contact.html" class="btn btn-outline" role="button">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        © 2025 Your Startup. All rights reserved.
+    </footer>
+</body>
+</html>
