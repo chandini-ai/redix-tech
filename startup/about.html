@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<title>Redix Tech - About Us</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+      :root {
+        --primary-color: #1193d4;
+        --secondary-color: #111c22;
+        --accent-color: #192b33;
+        --text-primary: #ffffff;
+        --text-secondary: #92b7c9;
+        --border-color: #233c48;
+      }
+      .hover-lift {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      .hover-lift:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+      }
+      .nav-links {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+  }
+  
+  .nav-links a {
+    color: #f9f1f1; /* Menu text black */
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: gray;
+  }
+      .active-link {
+         color: var(--primary-color);
+      }
+      .active-link::after{
+        width: 100%;
+      }
+      .logo img {
+    height: 50px;   /* Adjust logo size */
+    width: auto;
+    display: block;
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent; /* Transparent navbar */
+    z-index: 1000;
+    padding: 0.75rem 2rem;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between; /* Logo left, menu right */
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+  }
+  .menu-btn {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: black; /* Black menu button */
+    cursor: pointer;
+  }
+    </style>
+</head>
+<body class="bg-[var(--secondary-color)] text-[var(--text-primary)]" style='font-family: Inter, "Noto Sans", sans-serif;'>
+<div class="relative min-h-screen w-full overflow-x-hidden">
+<!--navbar section-->
+<header class="navbar">
+    <div class="container">
+      <!-- Logo -->
+      <a href="#" class="logo">
+        <img src="images/logo1.jpg" alt="REDIX TECH Logo" />
+      </a>
+
+      <!-- Navigation -->
+      <nav>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#faqs">FAQs</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#blog">Blog</a></li>
+        </ul>
+      </nav>
+
+      <!-- Hamburger button (mobile) -->
+      <button id="menu-btn" class="menu-btn" aria-label="Toggle Menu">☰</button>
+    </div>
+  </header>
+
+
+<main class="flex-1">
+<section class="relative min-h-[60vh] flex items-center justify-center py-20 px-4 sm:px-6 lg:px-8">
+<div class="absolute inset-0 bg-cover bg-center" style='background-image: linear-gradient(rgba(17, 28, 34, 0.8) 0%, rgba(17, 28, 34, 1) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBW1Ch6ZNAS8FcOJiYuj-rrjurxRkkaHEV2C6Ixdc9AokdtvQ5db26aVU6zPhSUi1gig7ZbwiXSpx3YVAxcqWaB6MCdeyZ1R1pxUf-yt7p8ghbw9o0wT_8p1fzguNELkTSOzkQHn5VuNydjQwBdTZaL4mHjgo2IAEtf-3T8Safz4L1AigFRyT8TEJYZNwRDSXkpDGznxydS0BVsEpBesLTUHpNJJVDVyhtySqb0xWT3As8pIRwdfgXiI6J990BSwsRYEp03hgezUA");'></div>
+<div class="relative z-10 text-center bg-[var(--accent-color)]/50 backdrop-blur-sm p-8 sm:p-12 lg:p-16 rounded-lg shadow-2xl hover-lift">
+<h1 class="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight tracking-tighter">About Radix Tech</h1>
+<p class="mt-4 max-w-2xl mx-auto text-base sm:text-lg lg:text-xl text-[var(--text-secondary)]">We are a team of passionate technologists dedicated to building innovative solutions for the future.</p>
+</div>
+</section>
+<section class="py-16 sm:py-20 lg:py-24 px-4 sm:px-6 lg:px-8">
+<div class="max-w-7xl mx-auto">
+<div class="bg-gradient-to-br from-[var(--accent-color)] to-transparent p-8 sm:p-12 rounded-lg shadow-lg hover-lift">
+<h2 class="text-3xl sm:text-4xl font-bold tracking-tight text-center">Our Story</h2>
+<p class="mt-6 text-center max-w-3xl mx-auto text-lg text-[var(--text-secondary)]">Radix Tech was founded in 2025 with a vision to empower businesses through innovative digital solutions. From a small team of passionate technologists, we have grown into a dedicated startup delivering scalable, secure, and user-friendly web and mobile applications. Our journey is built on a foundation of creativity, technical excellence, and a client-first approach, helping businesses transform their ideas into impactful digital experiences. At Radix Tech, we combine strategic thinking with cutting-edge technology to drive measurable results and long-term growth for our clients.</p>
+</div>
+</div>
+</section>
+<section class="py-16 sm:py-20 lg:py-24 px-4 sm:px-6 lg:px-8">
+<div class="max-w-7xl mx-auto">
+<h2 class="text-3xl sm:text-4xl font-bold tracking-tight text-center">Mission &amp; Vision</h2>
+<div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="flex flex-col gap-4 rounded-lg border border-[var(--border-color)] bg-[var(--accent-color)] p-6 hover-lift">
+<div class="flex items-center gap-4">
+<div class="text-[var(--primary-color)]"><span class="material-symbols-outlined text-4xl">rocket_launch</span></div>
+<h3 class="text-2xl font-bold">Our Mission</h3>
+</div>
+<p class="text-[var(--text-secondary)]">To empower businesses and individuals with transformative technology solutions that enhance efficiency, productivity, and growth.</p>
+</div>
+<div class="flex flex-col gap-4 rounded-lg border border-[var(--border-color)] bg-[var(--accent-color)] p-6 hover-lift">
+<div class="flex items-center gap-4">
+<div class="text-[var(--primary-color)]"><span class="material-symbols-outlined text-4xl">visibility</span></div>
+<h3 class="text-2xl font-bold">Our Vision</h3>
+</div>
+<p class="text-[var(--text-secondary)]">To be a leading technology innovator, recognized for our commitment to quality, creativity, and customer satisfaction.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="bg-[var(--accent-color)] py-16 sm:py-20 lg:py-24 px-4 sm:px-6 lg:px-8">
+<div class="max-w-7xl mx-auto text-center">
+<h2 class="text-3xl sm:text-4xl font-bold tracking-tight">Why Radix Tech?</h2>
+<p class="mt-4 max-w-3xl mx-auto text-lg text-[var(--text-secondary)]">At Radix Tech, we stand out from the crowd with our unique approach and unwavering dedication to our clients' success. Here's what sets us apart:</p>
+<div class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="flex flex-col items-center gap-4 p-6">
+<div class="text-[var(--primary-color)]"><span class="material-symbols-outlined text-5xl">code</span></div>
+<h3 class="text-xl font-bold">Innovative Solutions</h3>
+<p class="text-[var(--text-secondary)] text-sm">We leverage the latest technologies and methodologies to create custom solutions that meet your specific needs and challenges.</p>
+</div>
+<div class="flex flex-col items-center gap-4 p-6">
+<div class="text-[var(--primary-color)]"><span class="material-symbols-outlined text-5xl">groups</span></div>
+<h3 class="text-xl font-bold">Client-Centric Approach</h3>
+<p class="text-[var(--text-secondary)] text-sm">We prioritize our clients' goals and work closely with them throughout the entire process to ensure their vision is realized.</p>
+</div>
+<div class="flex flex-col items-center gap-4 p-6">
+<div class="text-[var(--primary-color)]"><span class="material-symbols-outlined text-5xl">cycle</span></div>
+<h3 class="text-xl font-bold">Agile Development</h3>
+<p class="text-[var(--text-secondary)] text-sm">Our agile development process allows for flexibility and adaptability, ensuring we can quickly respond to changing requirements and deliver results efficiently.</p>
+</div>
+<div class="flex flex-col items-center gap-4 p-6">
+<div class="text-[var(--primary-color)]"><span class="material-symbols-outlined text-5xl">security</span></div>
+<h3 class="text-xl font-bold">Security &amp; Reliability</h3>
+<p class="text-[var(--text-secondary)] text-sm">We build secure and reliable solutions that protect your data and ensure seamless operation, giving you peace of mind.</p>
+</div>
+</div>
+</div>
+</section>
+     
+<section class="py-16 sm:py-20 lg:py-24 px-4 sm:px-6 lg:px-8">
+<div class="max-w-7xl mx-auto">
+<h2 class="text-3xl sm:text-4xl font-bold tracking-tight text-center">Our Core Values</h2>
+<div class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="flex flex-col gap-3 rounded-lg border border-[var(--border-color)] bg-[var(--accent-color)] p-6 hover-lift text-center">
+<div class="text-[var(--primary-color)] mx-auto"><span class="material-symbols-outlined text-4xl">lightbulb</span></div>
+<h3 class="text-xl font-bold">Innovation</h3>
+<p class="text-[var(--text-secondary)] text-sm">We foster a culture of creativity and continuous improvement, always seeking new and better ways to solve problems.</p>
+</div>
+<div class="flex flex-col gap-3 rounded-lg border border-[var(--border-color)] bg-[var(--accent-color)] p-6 hover-lift text-center">
+<div class="text-[var(--primary-color)] mx-auto"><span class="material-symbols-outlined text-4xl">handshake</span></div>
+<h3 class="text-xl font-bold">Collaboration</h3>
+<p class="text-[var(--text-secondary)] text-sm">We believe in the power of teamwork and open communication, working together to achieve shared goals.</p>
+</div>
+<div class="flex flex-col gap-3 rounded-lg border border-[var(--border-color)] bg-[var(--accent-color)] p-6 hover-lift text-center">
+<div class="text-[var(--primary-color)] mx-auto"><span class="material-symbols-outlined text-4xl">favorite</span></div>
+<h3 class="text-xl font-bold">Integrity</h3>
+<p class="text-[var(--text-secondary)] text-sm">We are committed to honesty, transparency, and ethical conduct in all our interactions.</p>
+</div>
+<div class="flex flex-col gap-3 rounded-lg border border-[var(--border-color)] bg-[var(--accent-color)] p-6 hover-lift text-center">
+<div class="text-[var(--primary-color)] mx-auto"><span class="material-symbols-outlined text-4xl">workspace_premium</span></div>
+<h3 class="text-xl font-bold">Excellence</h3>
+<p class="text-[var(--text-secondary)] text-sm">We strive for the highest standards of quality and professionalism in everything we do.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-16 sm:py-20 lg:py-24 px-4 sm:px-6 lg:px-8">
+<div class="max-w-4xl mx-auto text-center">
+<h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight">Ready to Transform Your Business?</h2>
+<p class="mt-4 text-lg text-[var(--text-secondary)]">Contact us today to discuss your project and discover how Radix Tech can help you achieve your goals.</p>
+<div class="mt-8">
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-md h-12 px-6 bg-[var(--primary-color)] text-white text-base font-bold tracking-wide hover:bg-opacity-90 transition-colors mx-auto">
+<span class="truncate">Get in Touch</span>
+</button>
+</div>
+</div>
+</section>
+</main>
+</div>
+
+</body></html>
