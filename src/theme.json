@@ -1,0 +1,31 @@
+{
+  "colors": {
+    "default": {
+      "theme_color": {
+        "primary": "#FF8C3A",
+        "secondary": "#FFD700",
+        "body": "#1A365C",
+        "border": "#FF8C3A",
+        "theme_light": "#00BFFF",
+        "theme_dark": "#0F2438"
+      },
+      "text_color": {
+        "default": "#FFFFFF",
+        "dark": "#1A365C",
+        "light": "#E5E5E5"
+      }
+    }
+  },
+  "fonts": {
+    "font_family": {
+      "primary": "Montserrat:wght@400;500;600;700;800;900",
+      "primary_type": "sans-serif",
+      "secondary": "Montserrat:wght@700;800;900",
+      "secondary_type": "sans-serif"
+    },
+    "font_size": {
+      "base": "16",
+      "scale": "1.24571"
+    }
+  }
+}
